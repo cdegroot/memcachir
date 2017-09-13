@@ -39,7 +39,7 @@ defmodule Memcachir.Mixfile do
      {:elasticachex, "~> 1.0"},
      {:ex_doc, "~> 0.15", only: :dev},
      {:libring, "~> 1.1"},
-     {:memcachex, "~> 0.4"},
+     {:memcachex, git: "https://github.com/cdegroot/memcachex", branch: "patch-1"},
      {:poolboy, "~> 1.5"}]
   end
 end
